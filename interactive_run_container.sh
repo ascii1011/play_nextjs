@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 source env_vars.sh
 
-sudo docker exec -it $CONTAINER_NAME bash
+sudo docker exec -it $CONTAINER_NAME sh
