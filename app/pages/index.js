@@ -14,6 +14,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Simple Next.js demo! See <Link href="/cars">Cars</Link>
         </h1>
+        <h2 className={styles.title}>
+          <Link href="/ai">AI Builder</Link>
+        </h2>
         </main>
     </div>
   )
